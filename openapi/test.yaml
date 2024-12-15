@@ -1,0 +1,21 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Generate models
+paths: {}
+components:
+  schemas:
+    Model1:
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+    Model2:
+      type: object
+      required:
+        - id
+      properties:
+        id:
+          type: integer
